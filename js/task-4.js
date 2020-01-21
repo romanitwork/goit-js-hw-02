@@ -1,3 +1,5 @@
+"use strict";
+
 const formatString = function(string) {
   if (string.length > 40) {
     string = string.substr(0, 40);
