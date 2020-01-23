@@ -10,7 +10,7 @@ while (input !== null) {
     alert("Было введено не число, попробуйте еще раз");
     continue;
   } else {
-    let numbersLength = numbers.push(Number(input));
+  numbers.push(Number(input));
   }
 }
 if (numbers.length !== 0) {
